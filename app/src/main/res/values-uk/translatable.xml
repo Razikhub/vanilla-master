@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Vanilla Music</string>
+  <string name="ok">Добре</string>
+  <string name="cancel">Скасувати</string>
+  <!--Playback Activity (main screen)-->
+  <string name="no_songs">Стежок на вашому пристроєві не знайдено</string>
+  <string name="empty_queue">Не обрано жодної стежки. Виберіть кілька з бібліотеки або введіть випадковий режим, торкнувшись цього повідомлення.</string>
+  <string name="settings">Налаштування</string>
+  <string name="no_shuffle">Не перемішувати</string>
+  <string name="shuffle_songs">Перемішати стежки</string>
+  <string name="shuffle_songs_continuously">Постійно перемішувати стежки</string>
+  <string name="shuffle_albums">Перемішати альбоми</string>
+  <string name="no_repeat">Не повторювати</string>
+  <string name="repeat">Повторювати</string>
+  <string name="repeat_current_song">Повторити чинну стежку</string>
+  <string name="stop_current_song">Зупинитися після чинної стежки</string>
+  <string name="random">Випадковий</string>
+  <string name="random_enabling">Випадковий режим увімкнено</string>
+  <string name="song_load_failed">Хиба у підвантаженні стежки %s. Можливо вона пошкоджена або відсутня.</string>
+  <string name="queue_cleared">Чергу очищено</string>
+  <string name="cover_art">Обкладинка альбому</string>
+  <string name="close_notification">Закрити сповіщення</string>
+  <string name="_genre">напрямок</string>
+  <string name="_track">стежка</string>
+  <string name="_composer">композитор</string>
+  <string name="_path">шлях</string>
+  <string name="_format">формат</string>
+  <string name="_title">назва</string>
+  <string name="_artist">виконавець</string>
+  <string name="_album">альбом</string>
+  <string name="_year">рік</string>
+  <string name="_replaygain">реплейґеїн</string>
+  <!--New Playlist Dialog-->
+  <string name="choose_playlist_name">Виберіть ім\'я списку відтворення</string>
+  <string name="create">Створити</string>
+  <string name="overwrite">Перезаписати</string>
+  <string name="delete_playlist">Чи видалити список відтворення %s?</string>
+  <!--Library-->
+  <string name="enqueue">Додати до черги</string>
+  <string name="enqueue_as_next">Грати наступною</string>
+  <string name="play">Грати</string>
+  <string name="edit">Коригувати</string>
+  <string name="rename">Змінити назву</string>
+  <string name="save_as_playlist">Зберегти список відтворення</string>
+  <string name="add_to_playlist">Додати до списку відтворення</string>
+  <string name="add_to_homescreen">Додати до стільниці...</string>
+  <string name="add_to">Додати до...</string>
+  <string name="playlist">Список відтворення</string>
+  <string name="homescreen">Стільниця</string>
+  <string name="add_to_favorites">Додати до улюблених</string>
+  <string name="remove_from_favorites">Усунути з улюблених</string>
+  <string name="playlist_favorites">Улюблені</string>
+  <string name="new_playlist">Новий список відтворення</string>
+  <string name="expand">Розширити</string>
+  <string name="expand_or_play_all">Розширити або програти всі</string>
+  <string name="delete">Видалити</string>
+  <string name="playback_view">Зараз грає</string>
+  <string name="sort_by">Сортувати за</string>
+  <string name="search">Пошук</string>
+  <string name="done">Виконано</string>
+  <string name="remove">Усунути</string>
+  <string name="play_or_enqueue">Почергувати якщо програється; Відтворити якщо призупинено</string>
+  <string name="open">Відкрити</string>
+  <string name="go_home">Домашня дирекція</string>
+  <string name="jumping_to_song">Пісня вже у черзі, стрибаймо...</string>
+  <!--As a developer, you should always supply "one" and "other"
+		strings. Your translators will know which strings are actually
+		needed for their language. Always include %d in "one" because
+		translators will need to use %d for languages where "one"
+		doesn't mean 1 (as explained above).
+
+		Translators should use http://unicode.org/reports/tr35/tr35-numbers.html#Language_Plural_Rules and
+		http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html, Type cardinal,
+		to see which categories apply to integer numbers in their languages-->
+  <plurals name="playing">
+    <item quantity="one">%d стежка грає.</item>
+    <item quantity="few">%d стежки грають.</item>
+    <item quantity="many">%d стежок грають.</item>
+    <item quantity="other">%d стежок грають.</item>
+  </plurals>
+  <string name="delete_file_failed">Видалення не вдалося %s.</string>
+  <string name="deleted_item">\'%s\' видалено.</string>
+  <string name="delete_item">Чи видалити \'%s\'?</string>
+  <string name="delete_file">Чи видалити файл \'%s\'?</string>
+  <string name="artists">Виконавці</string>
+  <string name="albums">Альбоми</string>
+  <string name="albumartists">Альбомові виконавці</string>
+  <string name="composers">Композитори</string>
+  <string name="songs">Стежки</string>
+  <string name="playlists">Списки відтворення</string>
+  <string name="genres">Напрямки</string>
+  <string name="files">Файли</string>
+  <string name="artist">Виконавець</string>
+  <string name="album">Альбом</string>
+  <string name="genre">Напрямок</string>
+  <string name="folder">Тека</string>
+  <string name="filename">Назва файлу</string>
+  <string name="file_size">Розмір файлу</string>
+  <string name="file_time">Час зміни</string>
+  <string name="extension">Розширення</string>
+  <string name="unknown">Невідомий</string>
+  <string name="play_all">Грати все</string>
+  <string name="enqueue_all">Зачергувати все</string>
+  <string name="all_songs">Усі стежки</string>
+  <string name="details">Детальніше</string>
+  <string name="more_from_artist">Більше від виконавця</string>
+  <string name="more_from_album">Більше з альбому</string>
+  <string name="title">Назва</string>
+  <string name="number_of_tracks">Кількість стежок</string>
+  <string name="year">Рік</string>
+  <string name="date_added">Коли додано</string>
+  <string name="artist_album">Виконовець, альбом</string>
+  <string name="artist_year_album">Виконавець, рік, альбом</string>
+  <string name="artist_album_track">Виконавець, альбом, номер стежки</string>
+  <string name="artist_album_title">Виконавець, альбом, назва</string>
+  <string name="artist_year">Виконавець, рік</string>
+  <string name="album_track">Альбом, номер стежки</string>
+  <string name="song_playcount">Кількість відтворень</string>
+  <!--Preferences-->
+  <string name="audio">Аудіо</string>
+  <string name="volume_during_ducking_title">Гучність при сповіщеннях</string>
+  <string name="volume_during_ducking_summary">Гучність відтворення:</string>
+  <string name="replaygain">Реплейґеїн</string>
+  <string name="replaygain_preamp_note_title">Примітка</string>
+  <string name="equalizer">Еквалайзер</string>
+  <string name="cycle_continuous_shuffling">Постійне перемішування</string>
+  <string name="notifications">Сповіщення</string>
+  <string name="notification_visibility_title">Видимість сповіщення</string>
+  <string name="notification_action_title">Дія сповіщення</string>
+  <string name="playback_on_startup_title">Відкривати під час запуску</string>
+  <string name="display_mode_title">Дисплеєвей режим</string>
+  <string name="default_action_title">Типова дія</string>
+  <string name="default_playlist_action_title">Типова дія списку відтворення</string>
+  <string name="theme">Тема</string>
+  <string name="disable_lockscreen_title">Вимкнути екран блокування</string>
+  <!--The following are for the list preferences-->
+  <string name="select">Вибрати</string>
+  <!--Folder selector-->
+  <!--Plugin system-->
+  <!--Theme names-->
+</resources>
